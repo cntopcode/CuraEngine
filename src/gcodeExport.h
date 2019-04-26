@@ -154,6 +154,7 @@ private:
     unsigned int layer_nr; //!< for sending travel data
 
     Temperature initial_bed_temp; //!< bed temperature at the beginning of the print.
+    Temperature build_volume_temperature;  //!< build volume temperature
 protected:
     /*!
      * Convert an E value to a value in mm (if it wasn't already in mm) for the current extruder.
